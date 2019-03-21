@@ -1,0 +1,245 @@
+div{
+/**Having a div outside of body gave me an error during validation*/
+}
+
+body {
+	background: linear-gradient(  #aaa, #333);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+main{
+    background-color: #ddd;
+    overflow: auto;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 10px 5px 5px gray; 
+}
+
+h2{
+    text-align: center;
+}
+
+header {
+	padding: 15px;
+	background-color: #444;
+	color: #fff;
+	text-align: center;
+    overflow: auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+header h1{
+    float:left;
+}
+
+footer {
+   
+    padding: 15px;
+	color: skyblue;
+	text-align: center;	
+}
+	
+header nav h3 {
+	display: none;
+    
+}
+
+header nav li {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+header nav ul {
+	padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+header nav a {
+	padding: 2px 10px;
+	background-color: #666;
+	color: skyblue;
+    display: inline-block;
+    border: 1px solid #333
+}
+
+header nav a:hover {
+	background-color: skyblue;
+	color: #666;
+}
+
+section {
+	background-color: #eee;
+	padding: 15px;
+	border: 1px solid #111;
+}
+
+#container{
+    width: 100%;
+}
+
+#home{
+    color: black;
+    background: lightblue; 
+}
+
+#roma{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#intro {
+	border-top: 1px solid #822;
+	background-color: #5BA4CE;
+    float: left
+}
+
+#resume{
+    background: linear-gradient(to bottom, yellow, red, yellow);
+    color: white   
+}
+
+#contactSec{
+    background: linear-gradient(to bottom, red, violet);
+    border-bottom: none;
+    border-top: none;  
+}
+
+#summary{
+    background: linear-gradient(to bottom, violet, blue);
+    border-bottom: none;
+    border-top: none;
+}
+
+#education{
+    background: linear-gradient(to bottom, blue, green);
+    border-bottom: none;
+    border-top: none;
+}
+
+#experience{
+    background: linear-gradient(to bottom, green, yellow);
+    border-bottom: none;
+    border-top: none;
+}
+
+#activities{
+    background: linear-gradient(to bottom, yellow, orange );
+    border-bottom: none;
+    border-top: none;
+}
+
+#community{
+    border-bottom: none;
+    border-top: none;
+    background: linear-gradient(to bottom, orange, red);
+}
+
+#honors{
+    border-top: none;
+    background: linear-gradient(to bottom, red, violet);
+}
+
+#courses{
+    background: linear-gradient(to bottom, blue, lightblue);
+}
+
+#coursesdata{
+    background: lightblue;
+}
+
+#chairs{
+    background: #888;
+}
+
+#cons{
+    background:#e11   
+}
+
+#pros{
+    background: #11e
+}
+
+#conclusion{
+    background: lightblue
+}
+
+aside {
+    background-color: #ddd;
+    padding: 20px;
+    font-size: 0.9em;
+    float: right;
+}
+
+p.contactInfo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+@media screen and (max-width: 699px){ 
+    header,footer{
+        width: 100%;
+    }
+    #container{
+        width:  100%;
+        margin: 1px;
+    }
+    
+}
+
+@media screen and (min-width: 700px){ 
+    main{
+        width: 650px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    
+    header{
+       	top: 0px;
+	    position: fixed;
+        width: 100%;
+    }
+  
+    secrion aside{
+        width: 200px;
+        float: right;
+    }   
+}
+
+@media screen and (min-width: 1000px) { 
+    #container{
+        width:950px;
+        margin: auto;
+    }
+    
+    header{
+        position: absolute;
+        float: left;
+        width: 300px;
+        margin-top: 15px;
+    }
+    
+    footer{
+        position: absolute;
+        float:left;
+        width:270px;
+        margin-top: 215px;
+        background: none
+    }
+   
+    main{
+        margin-top: 0px;
+        float: right;
+    }
+    
+    section aside{
+        float: right;
+    }
+}
+
+
